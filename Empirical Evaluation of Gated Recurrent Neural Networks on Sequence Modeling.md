@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 Model Comparison Table
+##  Model Comparison Table
 
 | Feature / Model                          | Tanh Model                         | GRU Model                                       | LSTM Model                                      |
 |------------------------------------------|------------------------------------|-------------------------------------------------|------------------------------------------------|
@@ -19,3 +19,16 @@
 | **Performance on Sequence Tasks**        | Worst                              | Comparable to or better than LSTM               | Slightly better than GRU                        |
 
 ---
+  ![DataCamp](img/p1(1).png)
+##  Key Insights from the Paper
+
+###  1. Gated Units Perform Better
+- Both **GRU** and **LSTM** significantly outperform the traditional **tanh** RNN.
+- They are especially better at modeling long-range dependencies in sequence tasks.
+
+  ###  2. Task Results
+- **On polyphonic music modeling and speech signal modeling:**
+  - **GRU and LSTM** clearly outperform tanh.
+  - In some cases, **GRU performed even better than LSTM** despite being simpler.
+  - ![DataCamp](img/p1(2).png)
+
