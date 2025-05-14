@@ -1,7 +1,7 @@
 #  Summary of "Attention is All You Need"
 ![](img/sat1.png)
 
-## 🔑 Key Concepts
+##  Key Concepts
 
 - **Self-Attention**: Allows the model to relate different positions of a sequence to each other in a single step.
 - **Multi-Head Attention**: Enables the model to attend to information from different representation subspaces at different positions.
