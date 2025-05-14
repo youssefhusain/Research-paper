@@ -1,6 +1,6 @@
 #  Summary of "Attention is All You Need"
 ![](img/sat1.png)
-In 2017, the deep learning landscape shifted dramatically with the introduction of the **Transformer** model. Unlike previous methods that depended on recurrent or convolutional layers, this architecture proposed a bold idea: _remove recurrence altogether and use attention as the sole mechanism for modeling dependencies_.
+
 
 ---
 
