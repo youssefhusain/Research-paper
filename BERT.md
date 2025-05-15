@@ -49,6 +49,6 @@ BERT also uses the **Next Sentence Prediction (NSP)** objective. Given a pair of
 
 ---
 
-## 📚 Reference
+##  Reference
 
 [Original BERT Paper (arXiv:1810.04805)](https://arxiv.org/pdf/1810.04805.pdf)
