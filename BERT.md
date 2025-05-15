@@ -26,7 +26,7 @@ During pretraining, BERT uses the **Masked Language Model (MLM)** objective. It 
 - Trains the model to deeply learn the semantics of language.
 
 ---
-ج
+
 
 ### 3. Next Sentence Prediction (NSP)
 
@@ -64,7 +64,11 @@ BERT also uses the **Next Sentence Prediction (NSP)** objective. Given a pair of
 - **Fine-tuning** adapts this pretrained knowledge to downstream tasks using task-specific labeled datasets.
 
 ---
-
+- **Model Variants**:
+  - **BERT-Base**: 12 layers, 768 hidden size, 12 heads.
+  - **BERT-Large**: 24 layers, 1024 hidden size, 16 heads.
+ 
+![](img/BERT3.png)
 ##  Reference
 
 [Original BERT Paper (arXiv:1810.04805)](https://arxiv.org/pdf/1810.04805.pdf)
