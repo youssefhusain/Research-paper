@@ -71,4 +71,4 @@ BERT also uses the **Next Sentence Prediction (NSP)** objective. Given a pair of
 ![](img/BERT3.png)
 ##  Reference
 
-[Original BERT Paper (arXiv:1810.04805)](https://arxiv.org/pdf/1810.04805.pdf)
+[Original BERT Paper ](https://arxiv.org/pdf/1810.04805.pdf)
