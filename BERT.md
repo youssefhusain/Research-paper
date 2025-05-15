@@ -3,7 +3,7 @@
 BERT is a powerful language representation model developed by Google. It is based solely on the Transformer architecture and enables deep understanding of language context in a bidirectional manner.
 
 ---
-![](img/BERT1.png)
+
 ##  Core Components
 
 ### 1. Transformer (Encoder Only)
@@ -46,6 +46,22 @@ BERT also uses the **Next Sentence Prediction (NSP)** objective. Given a pair of
 | Transformer (Encoder) | The architecture that powers BERT, using self-attention for contextual understanding. |
 | MLM       | Pretraining objective for learning contextual word representations. |
 | NSP       | Pretraining objective for learning sentence-level relationships. |
+
+---
+![](img/BERT1.png)
+##  Pretraining vs Fine-tuning
+
+| Aspect           | Pretraining                                      | Fine-tuning                                  |
+|------------------|--------------------------------------------------|----------------------------------------------|
+| Objective        | Learn general language understanding             | Adapt the pretrained model to a specific task |
+| Data             | Large unlabeled corpus (e.g., Wikipedia, Books)  | Small labeled dataset for a specific task     |
+| Tasks            | Masked Language Modeling, Next Sentence Prediction | Sentiment analysis, QA, NER, etc.          |
+| Training Time    | Long and resource-intensive                      | Shorter and more efficient                    |
+| Reusability      | Produces a general-purpose language model        | Task-specific model                          |
+
+#### Summary:
+- **Pretraining** is the phase where BERT learns general language knowledge from massive data using unsupervised tasks.
+- **Fine-tuning** adapts this pretrained knowledge to downstream tasks using task-specific labeled datasets.
 
 ---
 
