@@ -3,7 +3,7 @@
 BERT is a powerful language representation model developed by Google. It is based solely on the Transformer architecture and enables deep understanding of language context in a bidirectional manner.
 
 ---
-[](img/BERT1.png)
+![](img/BERT1.png)
 ##  Core Components
 
 ### 1. Transformer (Encoder Only)
@@ -37,7 +37,7 @@ BERT also uses the **Next Sentence Prediction (NSP)** objective. Given a pair of
 - Enhances performance on tasks like Question Answering and Natural Language Inference.
 
 ---
-[](img/BERT2.png)
+![](img/BERT2.png)
 ##  Summary
 
 | Component | Description |
