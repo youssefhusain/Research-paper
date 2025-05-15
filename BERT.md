@@ -38,7 +38,7 @@ BERT also uses the **Next Sentence Prediction (NSP)** objective. Given a pair of
 
 ---
 [](img/BERT2.png)
-## 🎯 Summary
+##  Summary
 
 | Component | Description |
 |-----------|-------------|
